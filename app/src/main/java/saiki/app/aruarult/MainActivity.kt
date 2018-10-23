@@ -70,6 +70,9 @@ fun longMethod(): Int {
     return a
 }
 
+// 黄色くなったら
+// alt + enter
+
 
 // 同じ数字使ってるので変数に入れたい
 // cmd + opt + v

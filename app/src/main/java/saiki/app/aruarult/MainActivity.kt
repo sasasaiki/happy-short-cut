@@ -14,6 +14,21 @@ class MainActivity : AppCompatActivity() {
 
 //リファクタあるある始まるよ!!
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 // メソッドが長くなったので分けたい
 // cmd + opt + m
 
@@ -65,22 +80,13 @@ fun longMethod(): Int {
 // Shit + esc で閉じる
 
 
-
-
 // どこで読まれてどこで書きこまれてる？
 // opt + F7
 var fooVar = 0
 
 
-
 // ていうか全部見たい
 // Command + F12
-
-// 移動したら opt + cmd + ←→ で行き来
-
-
-
-
 
 
 
@@ -88,9 +94,11 @@ var fooVar = 0
 // せめて改行したい
 
 // カッコの末尾でopt + enter
-// からの alt + drag
 
 data class manyArg(val hoge0: Int, val hoge1: Int, val hoge2: Int, val hoge3: Int, val hoge4: Int, val hoge5: Int, val hoge6: Int)
+
+// 頭になんか足したい
+// alt + drag
 
 
 
@@ -107,19 +115,19 @@ data class manyArg2(val hoge0: Int, val hoge1a: Int, val hoge2aa: Int, val hoge3
 // if の　中だけ分けたい
 // alt 上下
 
-fun nestMethod(): Int {
+fun nestMethod() {
 
 
-    if(true){
+    if (true) {
         val a = 1
 
 
-        if(true){
+        if (true) {
 
             val b = 2
 
 
-            if(true){
+            if (true) {
 
                 val c = 3
             }
@@ -129,6 +137,13 @@ fun nestMethod(): Int {
 }
 
 
+// どっかで赤くなってるけどなに？？
+
+
+
+
+
+// 移動したら opt + cmd + ←→ で行き来
 
 
 
@@ -137,27 +152,106 @@ fun nestMethod(): Int {
 
 
 
-
-
-
-fun a(){
+// 名前変更したい
+// shit + F6
+fun a() {
     b()
 }
 
-fun b(){
+fun b() {
     c()
 }
 
-fun c(){
+fun c() {
     longMethod()
 }
 
 
-fun readA(){
+fun readA() {
     val b = fooVar
 }
 
-fun writeA(){
+fun writeA() {
     fooVar = 10
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// F2
+やばいコード
+
+
+// 最後に
+// opt + cmd + l
+// で綺麗にして
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// 終わりです。

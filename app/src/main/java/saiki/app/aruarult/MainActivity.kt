@@ -12,7 +12,7 @@ class MainActivity : AppCompatActivity() {
 }
 
 
-//リファクタあるある始まるよ!!
+//楽しいショートカット!!
 
 
 
@@ -108,12 +108,12 @@ data class manyArg(val hoge0: Int, val hoge1: Int, val hoge2: Int, val hoge3: In
 // もう一つあります
 
 // val を選択して
-// ctr + g
+// ctr + g を押すと選択と同じ文字列を選択
 
 data class manyArg2(val hoge0: Int, val hoge1a: Int, val hoge2aa: Int, val hoge3aaa: Int, val hoge4aaa: Int, val hoge5aaaa: Int, val hoge6aaaaa: Int)
 
 // さらに末尾にIdとか入れたい
-// alt ←→
+// alt ←→ で単語単位で移動
 
 // if の　中だけ分けたい
 // alt 上下
@@ -141,7 +141,7 @@ fun nestMethod() {
 
 
 // どっかで赤くなってるけどなに？？
-
+// F2　で飛べる
 
 
 

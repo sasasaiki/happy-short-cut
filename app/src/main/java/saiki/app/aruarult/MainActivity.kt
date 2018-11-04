@@ -182,6 +182,12 @@ fun writeA() {
     fooVar = 10
 }
 
+// alt + shift + 上下
+// 行移動
+
+// cmd + shit + 上下
+// メソッド単位移動
+
 
 
 

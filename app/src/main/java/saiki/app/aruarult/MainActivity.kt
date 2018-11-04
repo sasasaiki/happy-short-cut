@@ -178,6 +178,7 @@ fun readA() {
     val b = fooVar
 }
 
+
 fun writeA() {
     fooVar = 10
 }
@@ -188,7 +189,8 @@ fun writeA() {
 // cmd + shit + 上下
 // メソッド単位移動
 
-
+// opt + shit + ctrl
+// 変更したとこに移動
 
 
 
